@@ -38,11 +38,7 @@
 }
 
 
-
-
-
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -381,39 +377,25 @@ font-size: 16px;
     margin: auto;
     max-width: 769px;
     display: flex;
-}
-
-.contacts .container_left, .contacts .container_right{
-    max-width: 384px;
-    margin: auto;
     background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.contacts .info_top {
+    flex: 1 1 50%;
     display: flex;
-    text-align: center;
-    padding-left: 70px;
-    padding-right: 70px;
+    flex-direction: column;
+    padding: 52px 70px 47px 70px;
 }
 
-.container_left .info_top h6{
-    padding-top: 52px;
-    padding-bottom: 49px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-style: normal;
-    color: #505d68;
-    font-size: 13px;
+.contacts .info_bottom {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 70px 47px 70px;
 }
 
-.container_left .info_top p {
-    padding-bottom: 97px;
-    font-size: 19px;
-    color: #505d68;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-style: normal;
-
-}
-
-.container_left .info_bottom h6{
+.info_top h6{
     padding-bottom: 50px;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -422,8 +404,8 @@ font-size: 16px;
     font-size: 13px;
 }
 
-.container_left .info_bottom p {
-    padding-bottom: 47px;
+.info_top p {
+    padding-bottom: 48px;
     font-size: 19px;
     color: #505d68;
     font-family: 'Open Sans';
@@ -431,27 +413,16 @@ font-size: 16px;
     font-style: normal;
 }
 
-.container_right .info_top h6{
-    padding-top: 52px;
-    padding-bottom: 49px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-style: normal;
-    color: #505d68;
-    font-size: 13px;
-}
-
-.container_right .info_top p {
-    padding-bottom: 97px;
+.info_top a{
+    text-decoration: none;
     font-size: 19px;
     color: #505d68;
     font-family: 'Open Sans';
     font-weight: 300;
     font-style: normal;
-
 }
 
-.container_right .info_bottom h6{
+.info_bottom h6{
     padding-bottom: 50px;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -460,8 +431,8 @@ font-size: 16px;
     font-size: 13px;
 }
 
-.container_right .info_bottom p {
-    padding-bottom: 47px;
+.info_bottom a {
+    text-decoration: none;
     font-size: 19px;
     color: #505d68;
     font-family: 'Open Sans';

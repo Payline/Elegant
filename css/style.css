@@ -37,6 +37,32 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Bold.eot');
+    src: url('../fonts/Now-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Bold.woff2') format('woff2'),
+    url('../fonts/Now-Bold.woff') format('woff'),
+    url('../fonts/Now-Bold.ttf') format('truetype'),
+    url('../fonts/Now-Bold.svg#Now-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Medium.eot');
+    src: url('../fonts/Now-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Medium.woff2') format('woff2'),
+    url('../fonts/Now-Medium.woff') format('woff'),
+    url('../fonts/Now-Medium.ttf') format('truetype'),
+    url('../fonts/Now-Medium.svg#Now-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 * {
     padding: 0;
@@ -287,20 +313,6 @@ h2{
     padding-bottom: 47px;
 }
 
-.ui-dialog .ui-cornet-all .ui-widget .ui-widget-content .ui-front .ui-draggable .ui-resizable {
-    max-width: 750px!important;
-    width: 100%;
-}
-
-.dialog .title{
-    background-color: #000;
-    color: #fff;
-    padding: 40px;
-    text-align: center;
-    font-size: 24px;
-
-}
-
 .tell .container button{
     border: solid 1px #000;
     padding: 23px;
@@ -316,12 +328,34 @@ h2{
     margin-bottom: 163px;
 }
 
+.ui-dialog .ui-cornet-all .ui-widget .ui-widget-content .ui-front .ui-draggable .ui-resizable {
+    max-width: 750px!important;
+    width: 100%;
+}
+
+.dialog title{
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Now';
+    font-weight: bold;
+    font-style: normal;
+}
+
 .dialog label{
     font-size: 22px;
     color: #363636;
+    font-family: 'Now';
+    font-weight: 500;
+    font-style: normal;
 }
 
 .dialog .label_email {
+    font-family: 'Now';
+    font-weight: bold;
+    font-style: normal;
     width: 382px;
     height: 58px;
     background-color: transparent;
@@ -329,6 +363,8 @@ h2{
     padding: 9px;
     margin-bottom: 40px;
     font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .dialog .button_reset {
@@ -339,29 +375,40 @@ h2{
     height: 60px;
     border: none;
     font-size: 24px;
+    margin-bottom: 30px;
+    font-family: 'Now';
+    font-weight: bold;
+    font-style: normal;
 }
 
 .dialog p{
 color: #363636;
     font-size: 22px;
     text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Now';
+    font-weight: 500;
+    font-style: normal;
 }
 
 .log_f a i{
+    padding-right: 10px;
     color: #ffffff;
     font-size: 24px;
 }
 
 .log_f a{
-    padding: 21px;
+    padding: 18px 90px 18px 90px;
     color: #ffffff;
     background-color: #5175c1;
     text-align: center;
-    width: 528px;
-    height: 60px;
     border: none;
     font-size: 24px;
     text-decoration: none;
+    margin-bottom: 166px;
+    font-family: 'Now';
+    font-weight: bold;
+    font-style: normal;
 }
 
 
